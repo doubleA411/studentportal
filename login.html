@@ -1,0 +1,96 @@
+<!-- <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // function loginbtn() {
+      //   var login = document.getElementById("form-login");
+      //   var register = document.getElementById("form-register");
+      //   login.style.display = "block";
+      //   register.style.display = "none";
+      // }
+      // function registerbtn() {
+      //   var login = document.getElementById("form-login");
+      //   var register = document.getElementById("form-register");
+      //   register.style.display = "block";
+      //   login.style.display = "none";
+      // }
+      // function login() {
+      //   var username = document.getElementById("username");
+      //   var password = document.getElementById("password");
+      //   console.log(username.value, password.value);
+      //   users.document.forEach((element) => {
+      //     if (
+      //       username.value == element.username &&
+      //       password.value == element.password
+      //     ) {
+      //       console.log("logged in");
+      //     } else {
+      //       console.log("Not logged in");
+      //     }
+      //   });
+      // }
+    </script>
+    <center>
+      <h2>Student Portal</h2>
+    </center>
+
+    <div id="form-login">
+      <span> name: &nbsp; <input type="text" name="username" /> </span>
+      <br />
+      <span> password : &nbsp; <input type="password" name="password" /> </span>
+      <button type="button">Login</button>
+    </div>
+  </body>
+</html> -->
+
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="form.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+     
+      <div class="content">
+        <form action="/login-confirm" method="POST">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Username</span>
+              <input
+                type="text"
+                placeholder="Enter your name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="input-box">
+              <span class="details">Password</span>
+              <input
+                type="password"
+                placeholder="Password"
+                name="password"
+                required
+              />
+            </div>
+           
+          <div class="button">
+            <input type="submit" value="Book Now" href="/" />
+          </div>
+        </form>
+     
+      </div>
+    </div>
+  </body>
+</html>
